@@ -1,4 +1,4 @@
-class Point{
+export class Point{
     //? means optional. This feature allows 
     //us to have a constructor without any parameter. 
     constructor(private _x?:number, private _y?:number){
