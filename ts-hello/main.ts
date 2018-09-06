@@ -11,5 +11,7 @@ class Point{
     }
 }
 
-let points:Point = new Point();
+let points = new Point();
+points.x = 1;
+points.y = 2;
 points.draw();
